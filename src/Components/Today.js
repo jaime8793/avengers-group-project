@@ -98,9 +98,9 @@ function Today() {
   }
   
   return (
-    <div>
+    <div >
    <br /><br />
-    <h2>My Day</h2>
+    <h2 className="home">My Day</h2>
     <br /><br />
 
     {updateData && updateData ? (

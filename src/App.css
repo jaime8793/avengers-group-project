@@ -155,3 +155,8 @@ li a:hover {
 .active {
   background-color: #04AA6D;
 }
+
+.home{
+font-style: normal;
+color: white;
+}
