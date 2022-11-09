@@ -5,7 +5,7 @@ This is a easy To Do List App that helps you organise your day.
 ## Authors
 - [James Maurice Owiti]('https://github.com/jaime8793')
 - [Gerald Kamau]('https://github.com/Gerald-ux-ux')
-- [Esther Maina Owiti]('https://github.com/EstherWMaina')
+- [Esther Maina]('https://github.com/EstherWMaina')
 
 ## Installation
 - Clone the repo
