@@ -2,7 +2,7 @@ import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
-  faCircleCheck, faPen, faTrashCan
+  faCircleCheck, faPen, faTrashCan , faStar
 } from '@fortawesome/free-solid-svg-icons'
 
 const ToDo = ({ toDo, markDone, setUpdateData, deleteTask }) => {
@@ -41,6 +41,9 @@ const ToDo = ({ toDo, markDone, setUpdateData, deleteTask }) => {
                   onClick={() => deleteTask(task.id)}
                 >
                   <FontAwesomeIcon icon={faTrashCan} />
+                </span>
+                <span title="Important">
+                  <FontAwesomeIcon icon={faStar} />
                 </span>
               </div>
             </div>
