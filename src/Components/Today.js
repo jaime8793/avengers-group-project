@@ -100,7 +100,7 @@ function Today() {
   return (
     <div>
    <br /><br />
-    <h2>Avengers' To Do List App</h2>
+    <h2>My Day</h2>
     <br /><br />
 
     {updateData && updateData ? (
