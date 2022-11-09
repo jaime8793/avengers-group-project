@@ -4,6 +4,7 @@ import AddTaskForm from './AddTaskForm';
 import UpdateForm from './UpdateForm';
 import ToDo from './ToDo';
 
+
 function Today() {
     const [toDo, setToDo] = useState([]);
     const [newTask, setNewTask] = useState('');
@@ -120,7 +121,7 @@ function Today() {
 
     {/* Display ToDos */}
 
-    {toDo && toDo.length ? '' : 'No Tasks...'}
+    {/* {toDo && toDo.length ? '' : 'No Tasks...'} */}
 
     <ToDo
       toDo={toDo}

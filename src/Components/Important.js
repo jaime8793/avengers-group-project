@@ -3,12 +3,10 @@ import ToDo from './ToDo';
 
 
 function Important() {
-
   return (
     <div>
-       <ToDo />
+      <ToDo />
     </div>
   );
 }
-
 export default Important;
