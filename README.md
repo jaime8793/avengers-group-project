@@ -1,9 +1,11 @@
-# Jaime's To Do List App
+# Avengers To Do List App
 This is a easy To Do List App that helps you organise your day.
 
 
 ## Authors
 - [James Maurice Owiti]('https://github.com/jaime8793')
+- [Gerald Kamau]('https://github.com/Gerald-ux-ux')
+- [Esther Maina Owiti]('https://github.com/EstherWMaina')
 
 ## Installation
 - Clone the repo
