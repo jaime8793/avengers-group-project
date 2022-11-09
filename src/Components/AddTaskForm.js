@@ -7,9 +7,15 @@ const AddTaskForm = ({ newTask, setNewTask, addTask }) => {
         <div className="row">
           <div className="col">
             <input 
+              type="text"
+              placeholder='Add a task'
+              autoComplete='true'
+              autoCapitalize='true'
+              autofocus = "true"
               value={newTask}
               onChange={ (e) => setNewTask(e.target.value)}
               className="form-control form-control-lg"
+
             />
           </div>
           <div className="col-auto">
