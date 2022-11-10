@@ -130,7 +130,7 @@ function Today() {
       deleteTask={deleteTask}
     />  
  
-  );
+ 
     </div>
   );
 }
