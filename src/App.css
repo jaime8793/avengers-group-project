@@ -3,7 +3,8 @@
 body {
   background-color: rgb(34, 33, 33);
   color: #fff;
-  background-image: url(./5027403.jpg);
+  background-image: url(../todo_photo.jpeg);
+  background-size: cover;
 
 }
 
