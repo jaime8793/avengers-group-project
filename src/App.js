@@ -16,9 +16,9 @@ const [toDoList, setToDoList] = useState([]);
   useEffect(() => {
     fetch("http://localhost:9292/usernames")
       .then((r) => r.json())
-      .then((data) => console.log(data));
+      .then((data) => setToDoList(toDoList));
   }, []);
-
+  console.log(data)
 
   return (
     <div className="container App">
