@@ -11,12 +11,12 @@ import './App.css';
 import { useEffect, useState } from 'react';
 
 function App() {
-const [toDoList, setToDoList] = useState([]);
+const [data, setData] = useState([]);
 
   useEffect(() => {
     fetch("http://localhost:9292/usernames")
       .then((r) => r.json())
-      .then((data) => setToDoList(toDoList));
+      .then((data) => setData(data));
   }, []);
   console.log(data)
 
