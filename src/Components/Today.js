@@ -11,13 +11,9 @@ function Today() {
     const [updateData, setUpdateData] = useState('');
 
     useEffect(() => {
-        // Get Tasks from database
         fetch('https://my-json-server.typicode.com/jaime8793/To-DO-LIST-PROJECT-PHASE-2/tasks')
         .then(res => res.json())
-        .then(data => {
-          setToDo(data);
-        })
-      }, []);
+        .then(data => {setToDo(data);})}, []);
     
     
       const addTask = () => {
