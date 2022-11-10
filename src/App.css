@@ -87,6 +87,7 @@ body {
   background-color: var(--bg-color);
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
   width: 100%;
+  border-radius: 15px;
   /*background: linear-gradient(90deg,rgb(6, 9, 115) 0,rgba(0, 72, 255, 0.539) 48%,#c9164c7f 70%,#294fc289);*/
   max-height: 6.3rem;
 }
