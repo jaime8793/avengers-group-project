@@ -12,7 +12,7 @@ import { useEffect, useState } from 'react';
 
 function App() {
 const [toDoList, setToDoList] = useState([]);
-//ADD EMPTY ARRAY TO USEEFFECT TO STOP INFINITE LOOP
+
   useEffect(() => {
     fetch("http://localhost:9292/usernames")
       .then((r) => r.json())
