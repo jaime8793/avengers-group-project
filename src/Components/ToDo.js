@@ -9,10 +9,13 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 // import { Link } from 'react-router-dom';
 
+
 const ToDo = ({ toDo, markDone, setUpdateData, deleteTask }) => {
-  const nav = useNavigate()
+  const navigate = useNavigate();
   const afterClick = () => {
-    nav("./important")
+    navigate("/important")
+    
+
   }
 
 
