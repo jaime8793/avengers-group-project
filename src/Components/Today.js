@@ -20,7 +20,7 @@ function Today() {
         if(newTask) {
           let num = toDo.length + 1; 
           let newEntry = { id: num, title: newTask, status: false }
-          // Add to database
+
           fetch('https://my-json-server.typicode.com/jaime8793/To-DO-LIST-PROJECT-PHASE-2/tasks', {
             method: 'POST',
             headers: {
@@ -33,15 +33,13 @@ function Today() {
             setToDo([...toDo, data]);
             setNewTask('');
           })
-    
-          /*setToDo([...toDo, newEntry])
-          setNewTask('');*/
+
         }
       }
 
       const deleteTask = (id) => {
         let newTasks = toDo.filter( task => task.id !== id)
-        // Delete from database
+
         fetch(`https://my-json-server.typicode.com/jaime8793/To-DO-LIST-PROJECT-PHASE-2/tasks${id}`, {
           method: 'DELETE'
         })
@@ -84,7 +82,7 @@ function Today() {
     .then(data => {
       setUpdateData(data);
     })
-    /*setUpdateData(newEntry);*/
+
   }
 
   const updateTask = () => {
@@ -115,9 +113,7 @@ function Today() {
       />
     )}
 
-    {/* Display ToDos */}
 
-    {/* {toDo && toDo.length ? '' : 'No Tasks...'} */}
 
     <ToDo
       toDo={toDo}
