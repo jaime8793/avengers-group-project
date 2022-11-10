@@ -29,7 +29,7 @@ const ToDo = ({ toDo, markDone, setUpdateData, deleteTask }) => {
                   <span className="taskText">{task.title}</span>
                 </div>
                 <div className="iconsWrap">
-                  <span title="Completed / Not Completed"
+                  <span title="Completed"
                     onClick={(e) => markDone(task.id)}
                   >
                     <FontAwesomeIcon icon={faCircleCheck} />
