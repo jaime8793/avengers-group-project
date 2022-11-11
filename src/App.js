@@ -17,6 +17,7 @@ function App() {
 
   useEffect(() => {
     fetch("http://localhost:9292/usernames")
+    fetch("http://localhost:9292/todo_lists")
       .then((r) => r.json())
       .then((data) => setData(data));
   }, []);
@@ -24,6 +25,7 @@ function App() {
 
   return (
     <div className="container App">
+      {/* <img src={require('./Components/Photos/').default} height={200} width={200}></img> */}
       <>
         <Navbar />
         <div className='container'>

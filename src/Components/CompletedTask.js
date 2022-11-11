@@ -1,12 +1,23 @@
 import React from 'react';
+import Today from './Today';
+import { useState } from 'react';
+
 
 function Completed() {
-  // const toDo = (markDone)
+  const [toDo, setToDo] = useState([]);
+
+  const markDone = (id) => {
+    let newTask = toDo.map(task => {
+      if (task.id === id) {
+        return ({ ...task, status: !task.status })
+      }
+      return task;
+    })
+    setToDo(newTask);
+  }
   return (
     <div >
-      {/* <span title="Completed"
-        onClick={(e) => markDone(task.id)}
-      ></span> */}
+      <Today />
     </div>
   );
 }
